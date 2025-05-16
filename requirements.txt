@@ -1,0 +1,7 @@
+flask
+flask-cors
+pytesseract
+PyMuPDF
+sentence-transformers
+torch
+jwt
