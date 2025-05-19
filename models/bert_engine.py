@@ -7,3 +7,5 @@ def score_cv(cv_text, job_offer_text):
     job_embedding = model.encode(job_offer_text, convert_to_tensor=True)
     score = util.pytorch_cos_sim(cv_embedding, job_embedding)
     return float(score[0][0])
+
+
